@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2a0e80;
+    color: white;
+    text-align: center;
+}
+header h1{ 
+    padding: 20px 70px;
+    color: white;
+    float: left;
+}
+header ul{
+    padding: 20px 20px;
+    display: inline-block;
+}
+header ul li{
+    border-left: 2px solid #f7c800;
+    padding: 10px; 
+    display: inline-block;
+    color: white;
+}
+header ul li:hover{
+    background-color: #f7c800;
+    color: #2a0e80;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.map {
+    fill:#2a0e80;
+    border: 2px solid #2a0e80; 
+    box-shadow: 2px black;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+.hover:hover {
+    fill: #f7c800;
+    cursor: pointer;
+    transition: ease-in 0.5s;
+}
+#BA-BRC:hover {
+    cursor: not-allowed;      
+}
+#brcko {
+    cursor:not-allowed;
+}
+
+.tabela{
+    display: inline-block;
+    float: left;
+    margin: 20px 10px;
+    border-collapse: collapse;
+}
+.tabela th{
+    background-color: #f7c800;
+    border: 2px solid #2a0e80;
+    padding: 5px 25px;
+}
+.tabela tr, td{
+    border: 2px solid #2a0e80;
+}
+.tabela td{
+    padding: 5px;
+}
+tr:hover {background-color: #f2f2f2;}
